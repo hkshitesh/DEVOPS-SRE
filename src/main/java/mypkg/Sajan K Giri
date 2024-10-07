@@ -1,0 +1,13 @@
+# multiplication.py
+ 
+def multiply(num1, num2):
+   
+    return num1 * num2
+ 
+if __name__ == "__main__":
+    # Example of multiplication with numbers 3 and 4
+    number1 = 3
+    number2 = 4
+    
+    result = multiply(number1, number2)
+    print(f"The product of {number1} and {number2} is {result}")
